@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: cp4i-ace-demo-app-v2
+spec:
+  destination:
+    namespace: cp4i-ace
+    server: https://kubernetes.default.svc
+  project: 3-applications
+  source:
+    path: payload/3-applications/namespace/cp4i-ace/demo-app-v2
+    repoURL: https://github.com/cloud-native-toolkit-gj-ka/gitops-cp-app-demoapp
+    targetRevision: main
+    helm:
+      releaseName: demo-app-v2
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+  ignoreDifferences: []
