@@ -1,0 +1,23 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: hl7-fhir-trustore
+  namespace: cp4i-ace
+spec:
+  encryptedData:
+    configuration: AgAbHxxYZOjEnAbruDpG/2Hn+QfnDT7tAGtSesiwg75BmEZ+gUxjTAOybeL0zLazV+Tt++AUY7GBbthPHjUKYOLlSB//sPyTRfZctFsqqiSCprX46TOQn0i/JIhBpxPf0+0u71WQR3s7QrTTfxRScBafSwj/TsG7iCZ5010htB5r2a0daEd7jYE0hLflEGb1dMHJZX04j07dS3cXtaQ3Rmdz+grzd5nWba6HpD3d1qxvZUhbW6jLZv7E2xYny+wEXObYp+iMFFtS68sRHX9BFt00OcCVoV8Q61+eUMTZY9ApWzDTEuk/0MhUWqT1VrvSOdwQz7VT1Ufb1KXyCcvl9Rov2U/qF61rFuHmzR3zpKVY5vsZ3IXLvHToXW2Hmgb0d+WlBUHjzE61ZoIL1o5xo5zmTHgOPkBIHcfsEggsjo9obtOjVbC3d50MerNJH9mPBT0tXWezGxYAoXBbbA5UAkR7XMteskVo+PWQ4mk+mDV1TPDHFF++7RS1ZgzERVc2yGu6Bbe9l+kizQeyq5ydN6kuWgjiZzfCVtWLxG9gmvjVWqcV9tO8vkl3HsoLzowdUZxaQ4g+xTW0d4Kfr/z28gQ3YVGOhVSVIqsPpPw211K360L0rsbh3RJKcA79gmmBSTZUStlUBJNVc0IajQrtjUmmwrwjTrlcVLTrrZQuCYvT/ozf058zUzMkdOYmnS8iZZsdHCKqzmxP+lzaU+Y5w3q6HmsAtZOc9WWQpeMII8aSri7a8Mmgk946g1lXgLmN6hgEcHDr8AaWqMusIFE6ybq72ZFgtk7XMMfTpGGna0hCyL/M1+xEn6Iv3FszMm91lZZgfBd7z+gwEnQuHiJDuvBuzZGEMsP9dGI0rB+y/UzMc8mHuZ0OLVMtyZHYvs74eDdimguWBmlGBWAm6PlvY+UnV/922Fyp1cQ8iFOCE0yRjzPCCr+kof2ZobnHg5FhZYbyozi3CGsrMiZqDVQfft53WZmICnnlz/F4PaOOdTVI0uOXrX7TLco/Iuory+wGN6jHZsOCXcR4zgFnOdewY3HmrJVmB8+7S3n3f1rD25oY32YcevEZwwly3k6sgb3rhK9sB4xPLbXVOxDdNhlqvUGeVMSOZFNc3+tjMCX851jubyHkzECTr4oZ+Ekifa5L8hbxnlheo351aXdWSwJd1cvEisOekf1h0Veum9dLR16EXikBReMf1Hm/p1ODM+Gr9hVLL1tAvU8sn+rkfX70vqAaih9kZdQumVMENWTDy91E6dYQFypIgt9nAG4mbb979NywnLSGNj66tbKngJ5hFjzUJIhZrGimzSgRj9OnFggPx7b8BTlp71KTeqQOtCBKFfYajOfsLA4TtzRhJ7YG9E5MaI57tJYdR5ykeFL0f2XOY1Ip73agBlvoMuBljZaHAVli1gfJRXgV6/VGxyrHhJWvlCsDN/TnXxGTsMhom8EOMaoMfw+UsJ0Bx85uptuQUGRDDLDRpqiSrRqdb6PKZXlgCFIAGhfY/1a2kSh8ACp240v4bGMTJ3zbdoOo0DZg8Ub2XWi1nCwx7SrSKrP2DvqJ43skpir3FpzcOxJxBVx5We53CdRZPKwpipLEAR+VAaw8Nkt7H+heIB8n7baPrMiK3Dsh0wehvxFfHIA9FikLfNE3u8kOGsY1Q+rMAYjBoH7nBm2EppBzWi0dRAfQb/Mn4VOfbKziFxfRviD1fh1sJreGK2FA/fzaS2N1aa0ECYpyy53E+RG+SclQfDgCFfd9KgG4jQVVjRlVAKlnolNWfxa5Mevcv7lg89DNkb2zLwg7BJY1c4JmfhcJXkXb5jqp5ubQAQB8KPFC2G9qMv+pmDTWiCPRayOWCqarsY2jCVZXbNQRh1eRVLGSOst15fiEVSpovgKqGNkOuMudNofxTh/li0a8dqrRrvvH
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      labels:
+        app.kubernetes.io/component: configuration
+        app.kubernetes.io/instance: hl7-fhir-trustore
+        app.kubernetes.io/managed-by: ibm-appconnect
+        app.kubernetes.io/name: hl7-fhir-trustore
+        appconnect.ibm.com/kind: Configuration
+      name: hl7-fhir-trustore
+      namespace: cp4i-ace
+    type: Opaque
+

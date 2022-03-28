@@ -1,0 +1,23 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: setdbparams-4-fhir
+  namespace: cp4i-ace
+spec:
+  encryptedData:
+    configuration: AgBn5f1lFQiSnVljXSjT+1/yVyTFHvJ7vqT5D94c31ad7O1Lvq+yIkLKVhhq8O4la4xEX4LqM0RO7izKNMyhcNDtLC7JwfrB3MDMVpcxpe7IjBDXQfxpv1IVOyNtDv0KStS81YCwc2wf4T7qe+pVCc8Bc8FfBboXJH8+duzVh0b8hSdsmDBcEiMTru6LJvbynGcHpWq2BOsj1S25D7Ke1m9GCkJA7vbkKAoh8xPjHuJNmDo827W6kuL+ZMlUYpAF2izMqP80pK80cBYXImGvLgIeuYYqSdcHpKuClcAQ+lFAfhyjRXgerT/2a0Ty6MhswNTAq6p/USlFKKWwE7XMEnnK4oDoGq5DrYhKVK6Edez8dckBHartER7N8Sy0r235CWK5iziFctDBIp2oCsb5vMvIVd/cnmcYc890LtfOh+EmT3EjJGNhazkdR+fCCovVYjdDsosvL+8B/57DUfMpIkbdIIcpF42CBn8jIDcURtdQ0gpRiFIMiigP0g+/faeDXzdUPkv6yLUpKO5s32N4mWa/gDK7N8jHLl+i8msxn03zBoMuWa0vHANTZFfyyi5feHveiagBj/3SzNX48Q8E6AHElnKq0llyrry3IxPmeDGpgltwREVf2iczmonbfb0LaYZFJ1yVOiWqNeFIWKIjFNipNlvfDi/nHdscIgVBWSWljcIumMoSNkkjA40qQMNTbWdc/9HTBuLUXuSuNfRMa7ITNAdjSZdN2MCxA14GY2l6zTP9jKxSgOO9Rlc5oG8jGD9C+q4u1Ch8D1ia/p/PK92y65H9gFqNzGnklATDgaMA9dahrp63syIojtaO9q6o/Djp0LHN9IUcYcfO7WWQ+LTOtoynzafgNFXF6Q==
+  template:
+    data: null
+    metadata:
+      creationTimestamp: null
+      labels:
+        app.kubernetes.io/component: configuration
+        app.kubernetes.io/managed-by: ibm-appconnect
+        app.kubernetes.io/name: setdbparams-4-fhir
+        appconnect.ibm.com/kind: Configuration
+        release: setdbparams-4-fhir
+      name: setdbparams-4-fhir
+      namespace: cp4i-ace
+    type: Opaque
+
